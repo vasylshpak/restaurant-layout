@@ -1,0 +1,303 @@
+html, body, div,
+h1, h2, h3, h4, h5, h6, p,  ul, li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* BASIC STYLES  💡💡💡*/
+
+
+body{
+    color: #ffffff;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+
+}
+p,a,li{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+li{
+    list-style-type: none;
+}
+
+/* BASIC STYLES  END💡💡💡*/
+
+
+
+/* BORDERS  */
+
+        .header{
+            border: solid blue 2px;
+        }
+        .logo{
+            border: solid blueviolet 5px;
+        }
+        .navigation{
+            border: solid greenyellow 5px;
+        }
+        .top{
+            border: solid green 5px;
+        }
+        .top-content{
+            border: solid rgb(63, 77, 42) 5px;
+        }
+        .cook{
+            border: solid darkgreen 5px;
+        }
+        .cook-content{
+            border: solid darkgreen 5px;
+        }
+        .cook-sign{
+            border: solid yellow 5px;
+        }
+        .cook-dish{
+            border: solid springgreen 5px;
+        }
+        .bazilic{
+            border: solid orchid 5px;
+        }
+        .bazilic-content{
+            border: solid orchid 5px;
+        }
+        .menu{
+            border: solid olivedrab 5px;
+        }
+        .menu-content{
+            border: solid olivedrab 5px;
+        }
+        .menu-left{
+            border: solid olivedrab 5px;
+        }
+        .menu-right{
+            border: solid orangered 5px;
+        }
+        .review{
+            border: solid black 5px;
+        }
+        .review-content{
+            border: solid black 5px;
+        }
+
+        .order{
+            border: solid yellow 5px;
+        }
+        .order-images{
+            border: solid olivedrab 5px;
+        }
+        .order-contact{
+            border: solid olivedrab 5px;
+        }
+        .footer{
+            border: solid orchid 5px;
+        }
+        .about{
+            border: solid yellow 5px;
+        }
+        .opening{
+            border: solid yellow 5px;
+        }
+        .location{
+            border: solid yellow 5px;
+        }
+
+
+/* BORDERS END*/
+
+
+
+        .grid-container {
+            justify-content: center;
+
+            display: grid;
+            grid-template-columns: repeat(8, 200px);
+            grid-template-rows: 110px 640px 710px 758px 994px 758px 710px 320px repeat(12, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            }
+
+        .bazilic-background { grid-area: 1 / 1 / 3 / 9; }
+        .header { grid-area: 1 / 1 / 2 / 9; }
+        .top { grid-area: 2 / 1 / 3 / 9; }
+        .cook { grid-area: 3 / 1 / 4 / 9; }
+        .bazilic { grid-area: 4 / 1 / 5 / 9; }
+        .div17 { grid-area: 5 / 1 / 6 / 2; }
+        .div18 { grid-area: 5 / 8 / 6 / 9; }
+        .menu { grid-area: 5 / 1 / 6 / 9; }
+        .review { grid-area: 6 / 1 / 7 / 9; }
+        .review-content { grid-area: 6 / 3 / 7 / 7; }
+        .div21 { grid-area: 7 / 1 / 8 / 9; }
+
+        .order { grid-area: 7 / 1 / 8 / 9; }
+        .order-images { grid-area: 7 / 2 / 8 / 5; }
+        .order-contact { grid-area: 7 / 5 / 8 / 8; }
+
+        .footer { grid-area: 8 / 1 / 9 / 9; }
+        .logo { grid-area: 1 / 2 / 2 / 3; }
+        .navigation { grid-area: 1 / 4 / 2 / 8; }
+        .top-content { grid-area: 2 / 2 / 3 / 8; }
+        .cook-content { grid-area: 3 / 2 / 4 / 8; }
+        .bazilic-content { grid-area: 4 / 5 / 5 / 8; }
+        .menu-content { grid-area: 5 / 2 / 6 / 8; }
+        .menu-left { grid-area: 5 / 2 / 6 / 5; }
+        .menu-right { grid-area: 5 / 5 / 6 / 8; }
+        .div30 { grid-area: 6 / 3 / 7 / 7; }
+        .div31 { grid-area: 7 / 2 / 8 / 8; }
+        .div32 { grid-area: 8 / 2 / 9 / 8; }
+        .cook-sign { grid-area: 3 / 3 / 4 / 5; }
+        .cook-dish { grid-area: 3 / 5 / 4 / 8; }
+
+
+        .about { grid-area: 8 / 2 / 9 / 4; }
+        .opening { grid-area: 8 / 4 / 9 / 6; }
+        .location { grid-area: 8 / 6 / 9 / 8; }
+
+
+
+
+
+        .bazilic-background
+        {
+            background-image: url(images/top-background.png);
+        }
+
+        .cook{
+            background-image: url(images/cook-bg.png);
+        }
+        .bazilic{
+            background-image: url(images/bazilic-bg.png);
+        }
+        .menu{
+            background-image: url(images/menu-bg.png);
+        }
+        .review{
+            background-image: url(images/review-bg.png);
+        }
+        .order{
+            background-image: url(images/order-bg.png);
+        }
+        .footer{
+            background-color: #191919;
+        }
+
+
+
+
+
+/* HEADER STYLES */
+        ul li{
+            display: inline-block;
+        }
+
+
+
+
+
+/* BAZILIC STYLES */
+
+
+
+/* position element inside grid-item element to the center !!!!!!!*/
+.bazilic-content{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 557px;
+    background-color: #000000;
+    opacity: 0.67;
+}
+
+.special{
+    display: block;
+    background-image: url(images/menu-special.png);
+    width: 69px;
+    height: 22px;
+    margin-left: 521px;
+}
+
+.review-content{
+    background-image: url(images/review-background.png);
+    align-self: center;
+    width: 770px;
+    height: 557px;
+
+
+}
+/* BLOCKQUOTE STYLES */
+blockquote {
+    font-family: Georgia, serif;
+    position: relative;
+    margin: 0.5em;
+    padding: 0.5em 2em 0.5em 3em;
+}
+blockquote:before {
+    font-family: Georgia, serif;
+    position: absolute;
+    font-size: 6em;
+    line-height: 1;
+    top: 0;
+    left: 0;
+    content: "\201C";
+}
+
+blockquote footer {
+    padding: 0 2em 0 0;
+    text-align:center;
+}
+
+
+
+
+
+
+.order-images {
+    align-self: center;
+}
+.order-images img{
+   margin: 0 11px 0;
+}
+
+
+
+label, input {
+    display: block;
+}
+form li{
+    color: black;
+}
+ul.form {
+    width  : 500px;
+    padding: 0px;
+    margin : 0px;
+    list-style-type: none;
+}
+ul.form li  {
+    width : 500px;
+}
+ul.form li input {
+    width : 200px;
+}
+ul.form li textarea {
+    width : 450px;
+    height: 150px;
+}
+ul.form li.twoColumnPart {
+    float : left;
+    width : 250px;
+}
+
