@@ -6,17 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,900&display=swap"
+    <link href="https://fonts.googleapis.com/css?family=Yeseva+One:400,400i,500,500i,600,600i,700,700i,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <main class="grid-container">
+
+<!-- HEADER NAVIGATION -->
         <header class="header"></header>
         <div class="bazilic-background"> </div>
-        <h5 class="logo">LAMBDA</h5>
-        <nav class="navigation">
+        <h5 class="logo flex-container">LAMBDA</h5>
+        <nav class="navigation flex-container">
             <ul> <a href="#">Home</a>
                 <a href="#">About</a>
                 <a href="#">Ingreedients</a>
@@ -26,33 +28,40 @@
                 <li>social logos</li>
             </ul>
         </nav>
+<!-- HEADER NAVIGATION END-->
 
 
-        <section class="top-content">
+<!-- DESCRIPTION -->
+        <section class="top-content flex-container">
             <h1>the right ingredients for the right food</h1>
             <img src="images/top-divider.png" alt="">
             <button>BOOK A TABLE</button>
             <button>SEE THE MENU</button>
         </section>
+<!-- DESCRIPTION END-->
+
+<!-- COOK -->
         <div class="cook"> </div>
-        <article class="cook-sign">
-            <h2>Just the right food</h2>
-            <img src="images/cook-divider.png" alt="">
+        <article class="cook-sign flex-container">
+            <h2 class="headers">Just the right food</h2>
+            <img  src="images/cook-divider.png" alt="">
             <p>
                 If you’ve been to one of our restaurants,
                 you’ve seen – and tasted – what keeps our
                 customers coming back for more.
                 Perfect materials and freshly baked food,
                 delicious Lambda cakes, muffins, and gourmet
-                coffees make us hard to resist! Stop in
+                coffees make us hard to resist! <br> Stop in
                 today and check us out!
             </p>
             <img src="images/cook.png" alt="">
         </article>
-        <img src="images/cook-dish.png" class="cook-dish"></img>
+        <img src="images/cook-dish.png" class="cook-dish flex-container"></img>
+<!-- COOK END -->
 
+<!-- BAZILIC -->
         <section class="bazilic"> </section>
-        <section class="bazilic-content">
+        <section class="bazilic-content ">
             <h2>Fine ingredients</h2>
             <img src="images/bazilic-divider.png" alt="">
             <p>
@@ -69,95 +78,73 @@
                 <img src="images/bazilic-image3.png" alt="">
             </ul>
         </section>
+<!-- BAZILIC END -->
 
-
+<!-- MENU -->
         <section class="menu"> </section>
-        <section class="menu-left">
-            <article>
-                <h2>Appetisers</h2>
+        <section class="menu-left flex-container">
+            <article class="flex-container">
+                <h2 class="headers">Appetisers</h2>
                 <img src="images/menu-divider.png" alt="">
-                <h5>Tzatsiki &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;$3.99</h5>
+                <h5>Tzatsiki $3.99</h5>
                 <p>Refreshing traditional cucumber and garlic yoghurt dip</p>
-                <h5>Aubergine Salad &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;$5.50</h5>
+                <h5>Aubergine Salad $5.50</h5>
                 <p>Pureed eggplant, garlic, green pepper and tomato dip</p>
-                <h5>Aubergine Salad &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;$5.25</h5>
+                <h5>Aubergine Salad $5.25</h5>
                 <p>Pureed eggplant, garlic, green pepper and tomato dip</p>
             </article>
-            <article>
-                <h2>Salads</h2>
+            <article class="flex-container">
+                <h2 class="headers">Salads</h2>
                 <img src="images/menu-divider.png" alt="">
-                <h5>Olive Special &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;$3.99</h5>
+                <h5>Olive Special $3.99</h5>
                 <p>Refreshing traditional cucumber and garlic yoghurt dip</p>
                 <p class="special">Special</p>
-                <h5>Greek Salad &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;$5.50</h5>
+                <h5>Greek Salad $5.50</h5>
                 <p>Pureed eggplant, garlic, green pepper and tomato dip</p>
-                <h5>Gusto Salad &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;$5.25</h5>
+                <h5>Gusto Salad $5.25</h5>
                 <p>Pureed eggplant, garlic, green pepper and tomato dip</p>
             </article>
         </section>
-        <section class="menu-right">
-            <article>
-                <h2>Staeters</h2>
+        <section class="menu-right flex-container">
+            <article class="flex-container">
+                <h2 class="headers">Staeters</h2>
                 <img src="images/menu-divider.png" alt="">
-                <h5>Haloumi &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;$3.99</h5>
+                <h5>Haloumi $3.99</h5>
                 <p>Refreshing traditional cucumber and garlic yoghurt dip</p>
-                <h5>Spinach Pie &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;$5.50</h5>
+                <h5>Spinach Pie $5.50</h5>
                 <p>Pureed eggplant, garlic, green pepper and tomato dip</p>
             </article>
-            <article>
-                <h2>Main Dishes</h2>
+            <article class="flex-container">
+                <h2 class="headers">Main Dishes</h2>
                 <img src="images/menu-divider.png" alt="">
-                <h5>Cornish Mackerel &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;$3.99</h5>
+                <h5>Cornish Mackerel $3.99</h5>
                 <p>Refreshing traditional cucumber and garlic yoghurt dip</p>
                 <p class="special">Special</p>
-                <h5>Roast Lamb&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;$5.50</h5>
+                <h5>Roast Lamb $5.50</h5>
                 <p>Pureed eggplant, garlic, green pepper and tomato dip</p>
-                <h5>Fried Chicken &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;$5.25</h5>
+                <h5>Fried Chicken $5.25</h5>
                 <p>Pureed eggplant, garlic, green pepper and tomato dip</p>
-                <h5>Patitsio &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;$5.25</h5>
+                <h5>Patitsio $5.25</h5>
                 <p>Pureed eggplant, garlic, green pepper and tomato dip</p>
             </article>
         </section>
+<!--MENU END-->
 
 
 
-
+<!-- REVIEW  -->
         <section class="review"> </section>
-        <section class="review-content">
-            <h2>Guest Reviews</h2>
+        <section class="review-content flex-container">
+            <h2 class="headers">Guest Reviews</h2>
             <img src="images/review-divider.png" alt="">
             <div>
                 <blockquote>
-                    If you’ve been to one of our restaurants,
+                    <p>If you’ve been to one of our restaurants,
                     you’ve seen – and tasted – what keeps our
                     customers coming back for more. Perfect
                     materials and freshly baked food, delicious
                     Lambda cakes, muffins, and gourmet coffees
-                    make us hard to resist! Stop in today and check us out!
+                    make us hard to resist! Stop in today and check us out!</p> 
                     <footer>
                         <cite>
                             -food inc, New York
@@ -166,14 +153,16 @@
                 </blockquote>
             </div>
         </section>
+<!-- REVIEW END -->
 
+<!-- ORDER -->
         <section class="order"> </section>
         <section class="order-images">
             <img src="images/order-image.png" alt="">
             <img src="images/order-image2.png" alt="">
         </section>
-        <div class="order-contact">
-            <h2>Just the right food</h2>
+        <div class="order-contact flex-container">
+            <h2 class="headers">Just the right food</h2>
             <img src="images/order-divider.png" alt="">
             <p>
                 If you’ve been to one of our restaurants,
@@ -210,9 +199,10 @@
                 </ul>
             </form>
             <button>Book now!</button>
-
         </div>
+<!-- ORDER END -->
 
+<!-- FOOTER -->
         <footer class="footer"> </footer>
         <div class="about">
             <h3>About Us</h3>
@@ -249,14 +239,8 @@
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
             </p>
         </div>
-
-
+<!-- FOOTER END -->
 
     </main>
-
-
-
-
 </body>
-
 </html>

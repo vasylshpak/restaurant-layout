@@ -1,3 +1,5 @@
+/* BASIC STYLES  💡💡💡*/
+
 html, body, div,
 h1, h2, h3, h4, h5, h6, p,  ul, li {
 	margin: 0;
@@ -5,26 +7,26 @@ h1, h2, h3, h4, h5, h6, p,  ul, li {
 	border: 0;
 	vertical-align: baseline;
 }
-/* BASIC STYLES  💡💡💡*/
+
 
 
 body{
     color: #ffffff;
     position: relative;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Yeseva One";
     margin: auto;
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
+    
 
 }
 
 h1,h2,h3,h4,h5{
-    font-family: 'Montserrat', sans-serif;
-    color: #000000;
+    font-family: "Yeseva One"
+   
 
 }
 p,a,li{
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Yeseva One";
     color: #ffffff;
     text-decoration: none;
 }
@@ -37,177 +39,148 @@ li{
 /* BASIC STYLES  END💡💡💡*/
 
 
-
-/* BORDERS  */
-
-        .header{
-            border: solid blue 2px;
-        }
-        .logo{
-            border: solid blueviolet 5px;
-        }
-        .navigation{
-            border: solid greenyellow 5px;
-        }
-        .top{
-            border: solid green 5px;
-        }
-        .top-content{
-            border: solid rgb(63, 77, 42) 5px;
-        }
-        .cook{
-            border: solid darkgreen 5px;
-        }
-        .cook-content{
-            border: solid darkgreen 5px;
-        }
-        .cook-sign{
-            border: solid yellow 5px;
-        }
-        .cook-dish{
-            border: solid springgreen 5px;
-        }
-        .bazilic{
-            border: solid orchid 5px;
-        }
-        .bazilic-content{
-            border: solid orchid 5px;
-        }
-        .menu{
-            border: solid olivedrab 5px;
-        }
-        .menu-content{
-            border: solid olivedrab 5px;
-        }
-        .menu-left{
-            border: solid olivedrab 5px;
-        }
-        .menu-right{
-            border: solid orangered 5px;
-        }
-        .review{
-            border: solid black 5px;
-        }
-        .review-content{
-            border: solid black 5px;
-        }
-
-        .order{
-            border: solid yellow 5px;
-        }
-        .order-images{
-            border: solid olivedrab 5px;
-        }
-        .order-contact{
-            border: solid olivedrab 5px;
-        }
-        .footer{
-            border: solid orchid 5px;
-        }
-        .about{
-            border: solid yellow 5px;
-        }
-        .opening{
-            border: solid yellow 5px;
-        }
-        .location{
-            border: solid yellow 5px;
-        }
-
-
-/* BORDERS END*/
+/* GRID SETUP */
+.grid-container {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(8, 200px);
+    grid-template-rows: 110px 640px 710px 758px 994px 758px 710px 320px repeat(12, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+.bazilic-background { grid-area: 1 / 1 / 3 / 9; }
+.header { grid-area: 1 / 1 / 2 / 9; }
+.top { grid-area: 2 / 1 / 3 / 9; }
+.cook { grid-area: 3 / 1 / 4 / 9; }
+.bazilic { grid-area: 4 / 1 / 5 / 9; }
+.menu { grid-area: 5 / 1 / 6 / 9; }
+.review { grid-area: 6 / 1 / 7 / 9; }
+.review-content { grid-area: 6 / 3 / 7 / 7; }
+.order { grid-area: 7 / 1 / 8 / 9; }
+.order-images { grid-area: 7 / 2 / 8 / 5; }
+.order-contact { grid-area: 7 / 5 / 8 / 8; }
+.footer { grid-area: 8 / 1 / 9 / 9; }
+.logo { grid-area: 1 / 2 / 2 / 3; }
+.navigation { grid-area: 1 / 4 / 2 / 8; }
+.top-content { grid-area: 2 / 2 / 3 / 8; }
+.cook-content { grid-area: 3 / 2 / 4 / 8; }
+.bazilic-content { grid-area: 4 / 5 / 5 / 8; }
+.menu-content { grid-area: 5 / 2 / 6 / 8; }
+.menu-left { grid-area: 5 / 2 / 6 / 5; }
+.menu-right { grid-area: 5 / 5 / 6 / 8; }
+.cook-sign { grid-area: 3 / 3 / 4 / 5; }
+.cook-dish { grid-area: 3 / 5 / 4 / 8; }
+.about { grid-area: 8 / 2 / 9 / 4; }
+.opening { grid-area: 8 / 4 / 9 / 6; }
+.location { grid-area: 8 / 6 / 9 / 8; }
+/* GRID SETUP END*/
 
 
 
-        .grid-container {
-            justify-content: center;
+/* BACKGROUND 💡💡💡 */
 
-            display: grid;
-            grid-template-columns: repeat(8, 200px);
-            grid-template-rows: 110px 640px 710px 758px 994px 758px 710px 320px repeat(12, 1fr);
-            grid-column-gap: 0px;
-            grid-row-gap: 0px;
-            }
+.bazilic-background
+{
+    background-image: url(images/top-background.png);
+}
 
-        .bazilic-background { grid-area: 1 / 1 / 3 / 9; }
-        .header { grid-area: 1 / 1 / 2 / 9; }
-        .top { grid-area: 2 / 1 / 3 / 9; }
-        .cook { grid-area: 3 / 1 / 4 / 9; }
-        .bazilic { grid-area: 4 / 1 / 5 / 9; }
-        .div17 { grid-area: 5 / 1 / 6 / 2; }
-        .div18 { grid-area: 5 / 8 / 6 / 9; }
-        .menu { grid-area: 5 / 1 / 6 / 9; }
-        .review { grid-area: 6 / 1 / 7 / 9; }
-        .review-content { grid-area: 6 / 3 / 7 / 7; }
-        .div21 { grid-area: 7 / 1 / 8 / 9; }
+.cook{
+    background-image: url(images/cook-bg.png);
+}
+.bazilic{
+    background-image: url(images/bazilic-bg.png);
+}
+.menu{
+    background-image: url(images/menu-bg.png);
+}
+.review{
+    background-image: url(images/review-bg.png);
+}
+.order{
+    background-image: url(images/order-bg.png);
+}
+.footer{
+    background-color: #191919;
+}
 
-        .order { grid-area: 7 / 1 / 8 / 9; }
-        .order-images { grid-area: 7 / 2 / 8 / 5; }
-        .order-contact { grid-area: 7 / 5 / 8 / 8; }
-
-        .footer { grid-area: 8 / 1 / 9 / 9; }
-        .logo { grid-area: 1 / 2 / 2 / 3; }
-        .navigation { grid-area: 1 / 4 / 2 / 8; }
-        .top-content { grid-area: 2 / 2 / 3 / 8; }
-        .cook-content { grid-area: 3 / 2 / 4 / 8; }
-        .bazilic-content { grid-area: 4 / 5 / 5 / 8; }
-        .menu-content { grid-area: 5 / 2 / 6 / 8; }
-        .menu-left { grid-area: 5 / 2 / 6 / 5; }
-        .menu-right { grid-area: 5 / 5 / 6 / 8; }
-        .div30 { grid-area: 6 / 3 / 7 / 7; }
-        .div31 { grid-area: 7 / 2 / 8 / 8; }
-        .div32 { grid-area: 8 / 2 / 9 / 8; }
-        .cook-sign { grid-area: 3 / 3 / 4 / 5; }
-        .cook-dish { grid-area: 3 / 5 / 4 / 8; }
+/* BACKGROUND END 💡💡💡 */
 
 
-        .about { grid-area: 8 / 2 / 9 / 4; }
-        .opening { grid-area: 8 / 4 / 9 / 6; }
-        .location { grid-area: 8 / 6 / 9 / 8; }
+
+/* COMMONLY USED STYLES 💡💡💡 */
+.flex-container{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.headers{
+    width: 432px;
+    height: 55px;
+    font-size: 36px;
+    line-height: 24px;
+    color: #cc9900;
+    font-family: "Yeseva One";
+    font-weight: 400;
+    text-align: center;
+}
+
+/* COMMONLY USED STYLES END💡💡💡 */
 
 
 
 
 
-        .bazilic-background
-        {
-            background-image: url(images/top-background.png);
-        }
+/* HEADER STYLES 💡💡💡*/
+.top-content h1{
+    width: 970px;
+    height: 250px;
+    font-size: 90px;
+    color: #ffffff;
+    font-family: "Yeseva One";
+    font-weight: 400;
+    text-align: center;
+    filter: drop-shadow(0.469px 0.883px 1px rgba(1,1,1,0.64));
+}
 
-        .cook{
-            background-image: url(images/cook-bg.png);
-        }
-        .bazilic{
-            background-image: url(images/bazilic-bg.png);
-        }
-        .menu{
-            background-image: url(images/menu-bg.png);
-        }
-        .review{
-            background-image: url(images/review-bg.png);
-        }
-        .order{
-            background-image: url(images/order-bg.png);
-        }
-        .footer{
-            background-color: #191919;
-        }
+ul li{
+    display: inline-block;
+}
 
 
+.logo{
+    width: 209px;
+    height: 43px;
+    font-size: 34px;
+    color: #ffffff;
+    font-family: "Yeseva One";
+    font-weight: 800;
+    text-align: center;
+}
+/* HEADER STYLES END💡💡💡*/
+
+/* COOK STYLES  💡💡💡*/
+.cook-sign h2{
+    margin-top: -100px;
+ }
+ .cook-sign p{
+     margin: 10px 0;
+    width: 432px;
+    height: 130px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4c4c4c;
+    text-align: center;
+ }
 
 
 
-/* HEADER STYLES */
-        ul li{
-            display: inline-block;
-        }
+
+/* COOK STYLES END 💡💡💡*/
 
 
-
-
-
-/* BAZILIC STYLES */
-
+/* BAZILIC STYLES 💡💡💡*/
 
 
 /* position element inside grid-item element to the center !!!!!!!*/
@@ -221,6 +194,36 @@ li{
     background-color: #000000;
     opacity: 0.67;
 }
+.bazilic-content img{
+    border-radius: 50% 50%;
+}
+
+/* BAZILIC STYLES END💡💡💡*/
+
+
+/* MENU STYLES  💡💡💡 */
+article h5{
+    width: 432px;
+    height: 40px;
+    font-size: 32px;
+    line-height: 24px;
+    color: #cc9900;
+    font-family: "Yeseva One";
+    font-weight: 400;
+    text-align: center;
+}
+article p{
+    width: 432px;
+    height: 69px;
+    font-size: 21px;
+    line-height: 24px;
+    color: #000000;
+    font-family: "Yeseva One";
+    font-weight: 400;
+    text-align: left;
+}
+
+
 
 .special{
     display: block;
@@ -230,74 +233,121 @@ li{
     margin-left: 521px;
 }
 
+/* MENU STYLES END 💡💡💡 */
+
+
+/* REVIEW STYLES  💡💡💡 */
+.review-content h2{
+    width: 370px;
+    height: 73px;
+    font-size: 36px;
+    color: #ffffff;
+    font-family: "Yeseva One";
+    font-weight: 400;
+    text-align: center;
+}
 .review-content{
     background-image: url(images/review-background.png);
     align-self: center;
     width: 770px;
     height: 557px;
 
-
 }
-/* BLOCKQUOTE STYLES */
-blockquote {
-    font-family: Georgia, serif;
-    position: relative;
-    margin: 0.5em;
-    padding: 0.5em 2em 0.5em 3em;
-}
-blockquote:before {
-    font-family: Georgia, serif;
-    position: absolute;
-    font-size: 6em;
-    line-height: 1;
-    top: 0;
-    left: 0;
-    content: "\201C";
-}
-
-blockquote footer {
-    padding: 0 2em 0 0;
-    text-align:center;
+blockquote p{
+    width: 630px;
+    height: 340px;
+    font-size: 22px;
+    line-height: 45px;
+    color: #dde0df;
+    text-align: center;
 }
 
 
 
+    /* BLOCKQUOTE STYLES  💡💡💡*/
+    blockquote {
+        position: relative;
+        margin-left: 20px;
+        padding: 0.5em 2em 0.5em 3em;
+    }
+    blockquote:before {
+        position: absolute;
+        font-size: 6em;
+        line-height: 1;
+        top: 0;
+        left: 0;
+        content: "\201C";
+        width: 119px;
+        height: 119px;
+        font-size: 96px;
+        color: #f2f4f4;
+        font-family: "Yeseva One"; 
+    }
+
+    blockquote footer {
+        padding: 0 2em 0 0;
+        text-align:center;
+    }
+    /* BLOCKQUOTE STYLES END  💡💡💡*/
+/* REVIEW STYLES END  💡💡💡 */
 
 
 
+
+
+/* ORDER STYLES   💡💡💡 */
+.order-contact h2{
+    width: 432px;
+    height: 47px;
+    font-size: 36px;
+    line-height: 24px;
+    color: #cc9900;
+    font-family: "Yeseva One";
+    font-weight: 400;
+    text-align: center;
+}
+.order-contact p{
+    width: 432px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4c4c4c;
+    font-weight: 400;
+    text-align: center;
+}
 .order-images {
     align-self: center;
 }
 .order-images img{
    margin: 0 11px 0;
 }
+    /* FORMS STYLES 💡💡💡*/
+    label, input {
+        display: block;
+    }
+    form li{
+        color: black;
+    }
+    ul.form {
+        width  : 500px;
+        padding: 0px;
+        margin : 0px;
+        list-style-type: none;
+    }
+    ul.form li  {
+        width : 500px;
+    }
+    ul.form li input {
+        width : 200px;
+    }
+    ul.form li textarea {
+        width : 450px;
+        height: 150px;
+    }
+    ul.form li.twoColumnPart {
+        float : left;
+        width : 250px;
+    }
 
+    /* FORMS STYLES END💡💡💡*/
 
-
-label, input {
-    display: block;
-}
-form li{
-    color: black;
-}
-ul.form {
-    width  : 500px;
-    padding: 0px;
-    margin : 0px;
-    list-style-type: none;
-}
-ul.form li  {
-    width : 500px;
-}
-ul.form li input {
-    width : 200px;
-}
-ul.form li textarea {
-    width : 450px;
-    height: 150px;
-}
-ul.form li.twoColumnPart {
-    float : left;
-    width : 250px;
-}
-
+/* ORDER STYLES END   💡💡💡 */
